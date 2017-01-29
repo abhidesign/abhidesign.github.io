@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+<link rel="stylesheet" type="text/css" href="official1stpage.css">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Calligraffitti|Josefin+Slab|Arsenal|Felipa" rel="stylesheet">
+</head>
+<body>
+<label for="show-menu" class="show-menu" id="navlabel">	&#8595; Show Menu	&#8595;</label>
+<input type="checkbox" id="show-menu" role="button">
+<ul id="menu">
+<li><a href="#linktoabout">About Me</a></li>
+<li><a href="https://www.facebook.com/abhijeet.gawande007?ref=bookmarks" target="_blank">Facebook</a></li>
+<li><a href="https://www.instagram.com/iabhi007/" target="_blank">Instagram</a></li>
+<li><a href="https://plus.google.com/u/0/103663778794342465442" target="_blank">Google+</a>
+</li>
+
+<li id="contact"><a href="#linktocontactme">Contact Me</a></li>
+<li id="myresume"><a href="#linktoresume">My Resume</a></li>
+
+</ul>
+<hr>
+<div id="a">
+	<img src="a2.jpg" alt="Me" height="320px" width="290px" id="img1">
+
+<h1 id="name1">Abhijeet . B . Gawande</h1>
+<h2 id="info1">21 | Aspiring Web Developer | Mumbai</h2>
+<h2 id="quote">" The best way to predict future is to create it "</h3>
+
+</div>
+
+<hr>
+<div id="b">
+
+<h1 id="welcome">Welcome to my first website!
+</h1>
+
+<h4 id="descme">I like to make creative and interactive websites from scratch.I also have a deep interest in creating awesome websites. I like to spend my time learning new things and increasing my knowledge. As the billionaire Warren Buffet says, "The more you learn, the more you earn"</h4>
+</div>
+
+<section id="about" name="linktoabout">
+<hr>
+	<h1 id="title">About Me</h1>
+	<h4 id="me">
+im 21 years old. im from Chembur , Mumbai. Im an ambivert.
+
+My hobbies are listening music and edm , exercising everyday , i like to code , and i spend some of my time on quora reading answers and answering some questions
+
+As i Grew up i always had more interests in computers and coding.
+
+I always used to score more marks in Computer science subjects from school to college.
+
+I have learnt html5 css3 js 
+and i have some knowledge of bootstrap and jquery. On the backend side i have learnt mysql and php</h4>
+</section>
+<div id="projects">
+	<hr>
+	<h1 id="projtitle">Projects</h1>
+	<h4 id="projtxt">I will be adding my future projects here.</h4>
+
+</div>
+
+<div id="contactme" name="linktocontactme">
+<hr>
+<h1 id="contacthead">Contact Me</h1>
+<hr>
+
+<section id="Contact1">
+
+<div id="Email">
+<h3 id="emtitle">Email</h3>
+<br>
+<br>
+<img src="mail.png" height="60px" width="60px" id="mail">
+<h4 id="emtxt"><pre> 
+ abhi.idowork@gmail.com </pre></h4> 
+</div>
+
+<div id="line1"></div>
+
+<div id="SM">
+<h3 id="sm-title">Social Media</h3>
+<br>
+<br>
+<a href="https://www.facebook.com/abhijeet.gawande007?ref=bookmarks" target="_blank" id="fblink"><img src="fb.png" height="60px" width="60px" id="fb" title="Facebook"></a>
+
+<a href="https://plus.google.com/u/0/103663778794342465442" target="_blank">
+<img src="gplus.png" title="Google+" height="60px" width="60px" id="gplus"></a>
+
+<a href="https://www.instagram.com/iabhi007/" target="_blank">
+<img src="insta.png" title="Instagram" height="60px" width="60px" id="insta"></a>
+ </div>
+<div id="line2"></div>
+
+<div id="Mobile">
+<h4 id="motitle" style="text-align: center";>Mobile</h4>
+<br>
+<br>
+<img src="mob.png" height="60px" width="60px" id="mob">
+<br>
+<br>
+<h4 id="numb">+91-9619044938</h4>
+
+</div>	
+</section>
+
+</div>
+<div id="c" name="linktoresume">
+<hr>
+<h1 id="rtitle">My Resume</h1>
+
+	<iframe id="resume" src="https://docs.zoho.com/writer/published/16uhy3e076a18cc4045fd8c8bd9e60d6a32c4" height="400px" width="90%"></iframe>
+</div>
+<div id="footer">
+<hr>
+<h1 id="ty">Thank You! Visit Again!</h1>
+<h4 id="cr">&copy; 2017 . Abhijeet Gawande . All Rights Reserved </h4>
+</div>
+
+
+<script type="text/javascript" src="D:\AbhiWebdev\jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	
+$('#show-menu').click(function() {
+  if ($(this).is(':checked')) {
+    $(this).siblings('label').html('&uarr; Hide Menu &uarr;');
+  $('#menu').slideDown(1100);
+  } else {
+    $(this).siblings('label').html('&#8595; Show Menu &#8595;');
+   $('#menu').slideUp("fast");
+  }
+});
+	$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+});
+</script>
+<!-- 
+<script type="text/javascript">
+var a = document.getElementById("show-menu");
+var b = document.getElementById("navlabel");
+if(a.checked==true)
+{
+b.innerHTML="Hide Menu";
+}
+</script>
+ --></body>
+</html>

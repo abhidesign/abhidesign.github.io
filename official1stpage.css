@@ -1,0 +1,780 @@
+*{
+	margin: 0px;
+	padding: 0px;
+color: white;
+font-family:Arsenal;
+font-size: 100%;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:#2c3e50;
+}
+
+li {
+    display: inline-block;
+border-right: 2px solid white;
+}
+
+li a {
+	font-family:'Indie Flower';
+	font-size: 120%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding:14px 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+    background-color: white;
+}
+#descme , #me , #projtxt
+{
+	word-spacing: 6px;
+	font-size: 120%;
+}
+
+#contact
+{
+	float: right;
+border-left: 2px  solid white;
+border-right: none;
+}
+#myresume
+{
+float: right;
+border-left: 2px  solid white;
+border-right: none;
+
+}
+#a {
+	height: 600px;
+	background-image: url("bg2.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+max-width: 100%;
+max-height: 100%;
+opacity: rgba(1,1,1,0.9);
+}
+#a img 
+{
+	max-height: 100%;
+	max-width:100%; 
+	display: block;
+	margin: 0px auto;
+padding-top: 30px;
+	border-radius: 50%;
+}
+#b
+{
+	height: 220px;
+text-align: center;
+background-color: #3c4d58;
+}
+#c
+{
+	
+	height: 550px;
+background-color: #3c4d58;
+clear: left;
+}
+#rtitle
+{
+	font-size: 200%;
+	text-align: center;
+	padding:20px 0px;
+	color: #1DBFAF;
+}
+
+#resume
+{
+	padding-left:5%;
+padding-top: 0%;
+border:none;
+}
+#name1
+{
+	font-family:'Dancing Script';
+	color: white;
+
+font-size: 250%;
+padding-top: 30px;
+text-align: center;
+}
+#info1
+{
+	font-size: 150%;
+	font-family:'Dancing Script';
+	color: white;
+text-align: center;
+padding-top: 30px;
+}
+#quote
+{
+	font-size: 170%;
+	font-family:'Dancing Script';
+color: white;	
+text-align: center;
+padding-top: 30px;
+}
+#welcome
+{
+	font-size: 200%;
+	color: #1DBFAF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#about{
+height: 300px;
+background-color: #303D46;
+}
+
+#title /*about me */
+{
+	font-size: 200%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+color: #1DBFAF;
+}
+
+#me
+{
+text-align: center;
+padding-left: 50px;
+padding-right:50px;
+
+}
+#contacthead
+{
+	font-size: 200%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+color: #1DBFAF;
+}
+#descme 
+{
+padding-left: 50px;
+padding-right:50px;
+}
+
+#projects
+{
+	height: 160px;
+	text-align: center;
+	background-color: #3c4d58;
+}
+#projtitle
+{
+	font-size: 200%;
+	padding:20px 20px;
+	color:#1DBFAF;
+}
+#projtxt
+{
+
+}	
+#footer
+{
+	height: 180px;
+	background-color: #303030;
+	text-align: center;
+}
+#contactme
+{
+	height: 300px;
+	background-color: #242d34;
+}
+#Contact1{
+	height: 325px;
+	background-color: #242d34;
+}
+#line1
+{
+width:0.1%;
+height:325px;
+background-color:white;
+position: relative;
+left: 5%;
+float: left;
+}
+#line2
+{
+	width:0.1%;
+height:325px;
+background-color:white;
+position: relative;
+left:-5%;
+float: left;
+}
+#Contact1 #Email
+{
+width: 25%;
+float: left;
+}
+#emtitle
+{
+	text-align: center;
+	padding-left:15%;
+padding-top:15% ;
+}
+#mail
+{
+	position: relative;
+	left:50%;
+	border-radius: 50%;
+}
+#emtxt
+{
+	padding-left: 60px;
+text-align: center;
+padding-bottom: 20%;
+}
+#fb
+{
+	border-radius: 50%;
+	position: relative;
+	left: 25%;
+}
+#gplus
+{
+	border-radius: 50%;
+	position: relative;
+	left: 36%;
+}
+#insta
+{
+	
+	border-radius: 50%;
+	position: relative;
+	left: 47%;
+
+}
+#Contact1 #Mobile
+{
+width: 25%;
+float: left;
+}
+#motitle
+{
+	padding-top: 15%;
+}
+#mob /* Mobile img */
+{
+border-radius: 50%;
+	position: relative;
+	left: 40%;
+}
+#numb
+{
+	text-align: center;
+}
+#Contact1 #SM
+{
+width: 49.8%;
+float: left;
+}
+#sm-title
+{
+text-align: center;
+padding-top: 50px;
+}
+#ty
+{
+	color: white;
+	padding: 30px 20px;
+	font-family: "Calligraffitti";
+font-size: 200%;
+}
+#cr
+{
+	font-size: 80%;
+	font-family: arial;
+	color: white;
+}
+#welcome , #title ,  #projtitle , #contacthead , #rtitle
+{
+	font-family:'Felipa';
+
+} 
+
+.show-menu {
+	font-family: 'Indie Flower';
+	text-decoration: none;
+	color: white;
+	background: #2c3e50;
+	text-align: center;
+	padding:20px;
+	display: none;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+/*input[type=checkbox]:checked ~ #menu {
+    display: block;
+}
+*/
+@media screen and (max-width : 767px){
+	/*Make dropdown links appear inline*/
+	ul {
+		position: static;
+	display: none;
+	}
+	/*Create vertical spacing*/
+	li {
+		border-top: 1px solid white;
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	ul li, li a {
+		width: 100%;
+	}
+/*Display 'show menu' link*/
+	.show-menu {
+		display:block;
+	}
+
+}
+@media screen and (max-width : 1122px){
+	#b{
+height: 230px;
+	}
+	#about
+	{
+height: 320px;
+	}
+}
+@media screen and (max-width : 1050px){
+	#b{
+height: 250px;
+	}
+	#about
+	{
+height: 340px;
+	}
+}
+@media screen and (max-width : 921px){
+	#b{
+height: 270px;
+	}
+	#about
+	{
+height: 380px;
+	}
+}
+@media screen and (max-width : 853px){
+	#b{
+height: 290px;
+	}
+	#about
+	{
+height: 420px;
+	}
+}
+@media screen and (max-width : 754px){
+	
+	#about
+	{
+height: 450px;
+	}
+}
+@media screen and (max-width : 685px){
+	#b{
+height: 320px;
+	}
+}
+@media screen and (max-width : 679px){
+	#about
+	{
+height: 480px;
+	}
+}
+@media screen and (max-width : 628px){
+	#about
+	{
+height: 520px;
+	}
+}
+@media screen and (max-width : 600px){
+	#b{
+height: 340px;
+	}
+}
+@media screen and (max-width : 564px){
+	#b{
+height: 360px;
+	}
+	#about
+	{
+height: 570px;
+	}
+}
+@media screen and (max-width : 526px){
+	#b{
+height: 390px;
+	}
+	#about
+	{
+height: 620px;
+	}
+}
+@media screen and (max-width : 472px){
+	#b{
+height: 430px;
+	}
+	#about
+	{
+height: 670px;
+	}
+}
+@media screen and (max-width : 440px){
+	#b{
+height: 450px;
+	}
+	#about
+	{
+height: 730px;
+	}
+}
+@media screen and (max-width : 406px){
+	#b{
+height: 520px;
+	}
+	#about
+	{
+height: 790px;
+	}
+}
+@media screen and (max-width : 382px){
+	#about
+	{
+height: 850px;
+	}
+}
+@media screen and (max-width : 386px){
+	#b{
+height: 580px;
+	}
+}
+@media screen and (max-width : 367px){
+	#b{
+height: 650px;
+	}
+}
+@media screen and (max-width : 371px){
+	#about{
+height: 930px;
+	}
+}
+@media screen and (max-width : 341px){
+	#about{
+height: 1000px;
+	}
+}
+@media screen and (max-width : 333px){
+	#about{
+height: 1100px;
+	}
+}
+@media screen and (max-width : 315px){
+	#b{
+height: 700px;
+	}
+}
+@media screen and (max-width : 500px)
+{
+#projects
+{
+	height: 200px; 
+}
+#projtxt
+{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+}
+@media screen and (max-width : 435px)
+{
+	#footer
+	{
+	height: 220px;	
+	}
+	#ty
+	{
+		font-size: 150%;
+	}
+	#cr
+	{
+		font-size: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+}
+@media screen and (max-width : 600px)
+{
+	#img1
+	{
+		height:270px; 
+		width:260px;
+	}
+	#name1
+	{
+		font-size: 180%; 
+	padding-top: 40px;
+	}
+	#quote
+	{
+		font-size: 120%;
+	padding-top: 50px;
+	}
+	#info1
+	{
+	padding-top: 50px;
+		font-size: 120%
+	}
+}
+@media screen and (max-width : 420px)
+{
+	#img1
+	{
+		height:240px; 
+		width:220px;
+	}
+	#name1
+	{
+		font-size: 150%; 
+	padding-top: 60px;
+	}
+	#quote
+	{
+		font-size: 100%;
+	padding-top: 70px;
+	}
+	#info1
+	{
+	padding-top: 70px;
+		font-size: 100%
+	}
+}
+
+@media screen and (max-width :1100px)
+{
+	#line1 , #line2
+	{
+		display: none;
+	}
+	#contactme
+	{
+		height: 1060px;
+	}
+	#Contact1 #Email
+	{
+		width: 100%;
+	height: 330px;
+	border-bottom: 1px solid white;
+	}
+#emtxt
+{
+text-align: center;
+}
+#emtitle
+{
+padding: 40px 0px;
+text-align: center;
+}
+#mail
+{
+position: relative;
+left: 40%;
+}
+	#Contact1 #Mobile
+	{
+		width: 100%;
+	
+	height: 320px;
+
+	
+	}
+#motitle
+{
+text-align: center;
+padding: 40px 0px;
+}
+#numb
+{
+text-align: center;
+}
+#mob
+{
+position: relative;
+left: 40%;
+}
+	#Contact1 #SM
+	{
+		width: 100%;
+	
+	height: 300px;
+	border-bottom: 1px solid white;
+	
+	}
+#sm-title
+{
+padding: 40px 0px;
+}
+#fb
+{
+position: relative;
+left: 10%;
+}
+#gplus
+{
+position: relative;
+left: 20%;
+}
+#insta
+{
+position: relative;
+left: 30%;
+}
+}
+@media screen and (max-width :1100px)
+{
+#mail
+{
+position: relative;
+left: 47%;
+}
+#emtxt
+{
+	padding-left: 20px;
+}
+#fb
+{
+position: relative;
+left: 35%;
+}
+#gplus
+{
+position: relative;
+left: 41%;
+}
+#insta
+{
+position: relative;
+left: 47%;
+}
+#mob
+{
+position: relative;
+left: 47%;
+}
+}
+@media screen and (max-width :850px)
+{
+
+#fb
+{
+position: relative;
+left: 31%;
+}
+#gplus
+{
+position: relative;
+left: 37%;
+}
+#insta
+{
+position: relative;
+left: 43%;
+}	
+}
+@media screen and (max-width :660px)
+{
+
+#fb
+{
+position: relative;
+left: 27%;
+}
+#gplus
+{
+position: relative;
+left: 33%;
+}
+#insta
+{
+position: relative;
+left: 39%;
+}
+#mob
+{
+	position: relative;
+	left: 45%;
+}		
+#mail
+{
+position: relative;
+left: 45%;
+}
+}
+@media screen and (max-width :530px)
+{
+
+#fb
+{
+position: relative;
+left: 24%;
+}
+#gplus
+{
+position: relative;
+left: 29%;
+}
+#insta
+{
+position: relative;
+left: 33%;
+}		
+}
+@media screen and (max-width :440px)
+{
+	#mob
+	{
+position: relative;
+left: 43%;
+	}
+	#mail
+	{
+		position: relative;
+		left: 43%;
+	}
+}
+
+@media screen and (max-width :420px)
+{
+
+#fb
+{
+position: relative;
+left: 16%;
+}
+#gplus
+{
+position: relative;
+left: 23%;
+}
+#insta
+{
+position: relative;
+left: 29%;
+}		
+}
