@@ -302,7 +302,10 @@ font-size: 200%;
 	font-family:'Felipa';
 
 } 
-
+#descme , #me
+{
+	vertical-align: middle;
+}
 .show-menu {
 	font-family: 'Indie Flower';
 	text-decoration: none;
