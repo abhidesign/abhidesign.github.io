@@ -58,10 +58,17 @@ max-width: 100%;
 max-height: 100%;
 opacity: rgba(1,1,1,0.9);
 }
+<<<<<<< HEAD
+#a img
+{
+	max-height: 100%;
+	max-width:100%;
+=======
 #a img 
 {
 	max-height: 100%;
 	max-width:100%; 
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 	display: block;
 	margin: 0px auto;
 padding-top: 30px;
@@ -75,7 +82,11 @@ background-color: #3c4d58;
 }
 #c
 {
+<<<<<<< HEAD
+
+=======
 	
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 	height: 550px;
 background-color: #3c4d58;
 clear: left;
@@ -115,7 +126,11 @@ padding-top: 30px;
 {
 	font-size: 170%;
 	font-family:'Dancing Script';
+<<<<<<< HEAD
+color: white;
+=======
 color: white;	
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 text-align: center;
 padding-top: 30px;
 }
@@ -157,7 +172,11 @@ padding-right:50px;
 	text-align: center;
 color: #1DBFAF;
 }
+<<<<<<< HEAD
+#descme
+=======
 #descme 
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 {
 padding-left: 50px;
 padding-right:50px;
@@ -178,11 +197,19 @@ padding-right:50px;
 #projtxt
 {
 
+<<<<<<< HEAD
+}
+#footer
+{
+	height: 180px;
+	background-color: #303030;
+=======
 }	
 #footer
 {
 	height: 180px;
 	background-color: #202020;
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 	text-align: center;
 }
 #contactme
@@ -233,7 +260,11 @@ padding-top:15% ;
 {
 	padding-left: 60px;
 text-align: center;
+<<<<<<< HEAD
+padding-top: 5%;
+=======
 padding-bottom: 20%;
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 }
 #fb
 {
@@ -249,7 +280,11 @@ padding-bottom: 20%;
 }
 #insta
 {
+<<<<<<< HEAD
+
+=======
 	
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 	border-radius: 50%;
 	position: relative;
 	left: 47%;
@@ -301,11 +336,19 @@ font-size: 200%;
 {
 	font-family:'Felipa';
 
+<<<<<<< HEAD
+}
+=======
 } 
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 #descme , #me
 {
 	vertical-align: middle;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 .show-menu {
 	font-family: 'Indie Flower';
 	text-decoration: none;
@@ -384,7 +427,11 @@ height: 420px;
 	}
 }
 @media screen and (max-width : 754px){
+<<<<<<< HEAD
+
+=======
 	
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 	#about
 	{
 height: 450px;
@@ -497,7 +544,11 @@ height: 700px;
 {
 #projects
 {
+<<<<<<< HEAD
+	height: 200px;
+=======
 	height: 200px; 
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 }
 #projtxt
 {
@@ -509,7 +560,11 @@ height: 700px;
 {
 	#footer
 	{
+<<<<<<< HEAD
+	height: 220px;
+=======
 	height: 220px;	
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 	}
 	#ty
 	{
@@ -526,12 +581,20 @@ height: 700px;
 {
 	#img1
 	{
+<<<<<<< HEAD
+		height:270px;
+=======
 		height:270px; 
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 		width:260px;
 	}
 	#name1
 	{
+<<<<<<< HEAD
+		font-size: 180%;
+=======
 		font-size: 180%; 
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 	padding-top: 40px;
 	}
 	#quote
@@ -549,22 +612,40 @@ height: 700px;
 {
 	#img1
 	{
+<<<<<<< HEAD
+		height:240px;
+=======
 		height:240px; 
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 		width:220px;
 	}
 	#name1
 	{
+<<<<<<< HEAD
+		font-size: 150%;
+=======
 		font-size: 150%; 
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 	padding-top: 60px;
 	}
 	#quote
 	{
+<<<<<<< HEAD
+		font-size: 100%;
+=======
 		font-size: 120%;
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 	padding-top: 70px;
 	}
 	#info1
 	{
 	padding-top: 70px;
+<<<<<<< HEAD
+		font-size: 100%
+	}
+}
+
+=======
 		font-size: 120%
 	}
 }
@@ -572,6 +653,7 @@ height: 700px;
 {
 
 }
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 @media screen and (max-width :1100px)
 {
 	#line1 , #line2
@@ -605,10 +687,17 @@ left: 40%;
 	#Contact1 #Mobile
 	{
 		width: 100%;
+<<<<<<< HEAD
+
+	height: 320px;
+
+
+=======
 	
 	height: 320px;
 
 	
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 	}
 #motitle
 {
@@ -627,10 +716,17 @@ left: 40%;
 	#Contact1 #SM
 	{
 		width: 100%;
+<<<<<<< HEAD
+
+	height: 300px;
+	border-bottom: 1px solid white;
+
+=======
 	
 	height: 300px;
 	border-bottom: 1px solid white;
 	
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 	}
 #sm-title
 {
@@ -687,10 +783,13 @@ left: 47%;
 @media screen and (max-width :850px)
 {
 
+<<<<<<< HEAD
+=======
 #descme , #me
 {
 	vertical-align: middle;
 }
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 #fb
 {
 position: relative;
@@ -705,15 +804,22 @@ left: 37%;
 {
 position: relative;
 left: 43%;
+<<<<<<< HEAD
+}
+=======
 }	
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 }
 @media screen and (max-width :660px)
 {
 
+<<<<<<< HEAD
+=======
 #descme , #me
 {
 	vertical-align: middle;
 }
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 #fb
 {
 position: relative;
@@ -733,7 +839,11 @@ left: 39%;
 {
 	position: relative;
 	left: 45%;
+<<<<<<< HEAD
+}
+=======
 }		
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 #mail
 {
 position: relative;
@@ -743,10 +853,13 @@ left: 45%;
 @media screen and (max-width :530px)
 {
 
+<<<<<<< HEAD
+=======
 #descme , #me
 {
 	vertical-align: middle;
 }
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 #fb
 {
 position: relative;
@@ -761,7 +874,11 @@ left: 29%;
 {
 position: relative;
 left: 33%;
+<<<<<<< HEAD
+}
+=======
 }		
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 }
 @media screen and (max-width :440px)
 {
@@ -780,10 +897,13 @@ left: 43%;
 @media screen and (max-width :420px)
 {
 
+<<<<<<< HEAD
+=======
 #descme , #me
 {
 	vertical-align: middle;
 }
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
 #fb
 {
 position: relative;
@@ -798,5 +918,10 @@ left: 23%;
 {
 position: relative;
 left: 29%;
+<<<<<<< HEAD
+}
+}
+=======
 }		
 }
+>>>>>>> db133a4aaa7964bd62b094efbba0d32f26219279
